@@ -1,40 +1,28 @@
 {
-  "name": "group-collaboration",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@material-ui/core": "^4.6.1",
-    "@material-ui/icons": "^4.5.1",
-    "express": "^4.17.1",
-    "mongoose": "^5.7.13",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-scripts": "3.2.0"
-  },
+  "name": "proofreader-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrorabaugh/proofreader-app.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nrorabaugh/proofreader-app/issues"
   },
-  "devDependencies": {
-    "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.15.1",
-    "react-test-renderer": "^16.11.0"
+  "homepage": "https://github.com/nrorabaugh/proofreader-app#readme",
+  "dependencies": {
+    "create-react-app": "^3.4.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2",
+    "node": "^13.8.0",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0"
   }
 }
